@@ -25,7 +25,7 @@ var FindProxyForURL = function(init, profiles) {
     "+r": function(url, host, scheme) {
         "use strict";
         if (/^127\.0\.0\.1$/.test(host) || /^::1$/.test(host) || /^localhost$/.test(host)) return "DIRECT";
-        return "HTTPS blade8.losangeles-rack408.nodes.gen4.ninja:9002";
+        return "HTTPS blade3.tehran-rack402.nodes.gen4.ninja:9002";
     }
 });
 
